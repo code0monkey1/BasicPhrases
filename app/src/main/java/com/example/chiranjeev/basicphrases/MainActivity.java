@@ -14,7 +14,7 @@ import android.widget.Button;
  * <p>
  * Step 3 : now make a common onClick method that will be the target of all buttons
  * <p>
- * Step 4 : in the place of the tags , put the names of the song titles as it is ( without extension )
+ * Step 4 : In the declared buttons , in the place of the tags , put the names of the song titles as it is ( without extension )
  * <p>
  * Step 5 : now after casting out the button object that was pressed ,
  * extract it's name using getResources().getIdentifier and then put it as a parameter put in the name of the
