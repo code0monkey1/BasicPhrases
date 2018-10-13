@@ -23,6 +23,8 @@
         <Button
             android:id="@+id/button1"
             android:gravity="fill"
+            android:onClick="englishToFrench"
+            android:tag="dyse"
             android:text="Do you \n speak english ?"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
@@ -30,6 +32,8 @@
         <Button
             android:id="@+id/button"
             android:gravity="fill"
+            android:onClick="englishToFrench"
+            android:tag="ge"
             android:text="good evening "
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
@@ -37,6 +41,8 @@
         <Button
             android:id="@+id/button3"
             android:gravity="fill"
+            android:onClick="englishToFrench"
+            android:tag="h"
             android:text="Hello"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
@@ -44,6 +50,8 @@
         <Button
             android:id="@+id/button4"
             android:gravity="fill"
+            android:onClick="englishToFrench"
+            android:tag="hay"
             android:text="How are you ?"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
@@ -51,6 +59,8 @@
         <Button
             android:id="@+id/button5"
             android:gravity="fill"
+            android:onClick="englishToFrench"
+            android:tag="ili"
             android:text="I live in "
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
@@ -58,6 +68,8 @@
         <Button
             android:id="@+id/button6"
             android:gravity="fill"
+            android:onClick="englishToFrench"
+            android:tag="mni"
             android:text="my name is "
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
@@ -65,6 +77,8 @@
         <Button
             android:id="@+id/button7"
             android:gravity="fill"
+            android:onClick="englishToFrench"
+            android:tag="p"
             android:text="please "
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
@@ -72,6 +86,8 @@
         <Button
             android:id="@+id/button8"
             android:gravity="fill"
+            android:onClick="englishToFrench"
+            android:tag="w"
             android:text="Welcome"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
