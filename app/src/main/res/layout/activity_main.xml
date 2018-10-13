@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+   // Step 1 :
 
     <android.support.v7.widget.GridLayout
         android:layout_width="368dp"
@@ -20,11 +21,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:rowCount="4">
 
+        // Step 2 :
+        // Step 4 :
         <Button
             android:id="@+id/button1"
             android:gravity="fill"
             android:onClick="englishToFrench"
-            android:tag="dyse"
+            android:tag="doyouspeakenglish"
             android:text="Do you \n speak english ?"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
@@ -33,8 +36,8 @@
             android:id="@+id/button"
             android:gravity="fill"
             android:onClick="englishToFrench"
-            android:tag="ge"
-            android:text="good evening "
+            android:tag="goodevening"
+            android:text="good evening"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
 
@@ -42,8 +45,8 @@
             android:id="@+id/button3"
             android:gravity="fill"
             android:onClick="englishToFrench"
-            android:tag="h"
-            android:text="Hello"
+            android:tag="hello"
+            android:text="hello"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
 
@@ -51,7 +54,7 @@
             android:id="@+id/button4"
             android:gravity="fill"
             android:onClick="englishToFrench"
-            android:tag="hay"
+            android:tag="howareyou"
             android:text="How are you ?"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
@@ -60,7 +63,7 @@
             android:id="@+id/button5"
             android:gravity="fill"
             android:onClick="englishToFrench"
-            android:tag="ili"
+            android:tag="ilivein"
             android:text="I live in "
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
@@ -69,7 +72,7 @@
             android:id="@+id/button6"
             android:gravity="fill"
             android:onClick="englishToFrench"
-            android:tag="mni"
+            android:tag="mynameis"
             android:text="my name is "
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
@@ -78,7 +81,7 @@
             android:id="@+id/button7"
             android:gravity="fill"
             android:onClick="englishToFrench"
-            android:tag="p"
+            android:tag="please"
             android:text="please "
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
@@ -87,7 +90,7 @@
             android:id="@+id/button8"
             android:gravity="fill"
             android:onClick="englishToFrench"
-            android:tag="w"
+            android:tag="welcome"
             android:text="Welcome"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
