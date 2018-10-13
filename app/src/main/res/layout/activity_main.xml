@@ -23,49 +23,56 @@
         <Button
             android:id="@+id/button1"
             android:gravity="fill"
-            android:text="Button"
+            android:text="Do you \n speak english ?"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
+
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/button"
             android:gravity="fill"
-            android:text="Button"
+            android:text="good evening "
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
+
         <Button
             android:id="@+id/button3"
             android:gravity="fill"
-            android:text="Button"
+            android:text="Hello"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
+
         <Button
             android:id="@+id/button4"
             android:gravity="fill"
-            android:text="Button"
+            android:text="How are you ?"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
+
         <Button
             android:id="@+id/button5"
             android:gravity="fill"
-            android:text="Button"
+            android:text="I live in "
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
+
         <Button
             android:id="@+id/button6"
             android:gravity="fill"
-            android:text="Button"
+            android:text="my name is "
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
+
         <Button
             android:id="@+id/button7"
             android:gravity="fill"
-            android:text="Button"
+            android:text="please "
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
+
         <Button
             android:id="@+id/button8"
             android:gravity="fill"
-            android:text="Button"
+            android:text="Welcome"
             app:layout_columnWeight="1"
             app:layout_rowWeight="1" />
     </android.support.v7.widget.GridLayout>
